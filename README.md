@@ -1,5 +1,15 @@
 # Churn Analysis for a Major San Francisco Ride Sharing Company
 
+# Table of Contents
+
+1. [Motivation](#motivation)
+2. [Data](#data)
+3. [Data Cleaning](#data-cleaning)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Modeling](#modeling)
+6. [Results](#results)
+7. [Conclusions](#conclusions)
+
 ## Motivation
 
 A ride-sharing company (Company X) is interested in predicting rider retention.
@@ -40,11 +50,11 @@ Describe cleaning process
 
 ## Exploratory Data Analysis 
 
-Scatter Matrix
+[Scatter Matrix](Plots/scatter_matrix.png)
 
-Violin Plot 
+[Violin Plot](Plots/violin_plot.png) 
 
-Correlation Matrix/HeatMap
+[Correlation Matrix](Plots/correlation_matrix.png)
 
 ## Modeling 
 
@@ -81,11 +91,11 @@ Describe models used, tested
 | GradientBoostingClassifier Recall:      | 0.869 |
 | GradientBoostingClassifier F1:          | 0.837 |
 
-ROC plot
+[ROC](Plots/roc_plot.png)
 
-Feature Importance
+[Feature Importance](Plots/feature_importance.png)
 
-Partial Dependency Plot
+[Partial Dependency](Plots/partial_dependency.png)
 
 ## Conclusions
 
