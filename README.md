@@ -32,29 +32,75 @@ Here is a detailed description of the data:
 - `weekday_pct`: the percent of the user’s trips occurring during a weekday
 
 
-## Work Flow
+## Data Cleaning
 
-1. Perform cleaning, exploratory analysis, and/or visualizations.
-   
-2. Build a predictive model to help determine the probability that a rider will
-be retained.
+Describe cleaning process
 
-3. Evaluate the model.
- 
-4. Identify / interpret features that are the most influential in affecting
-your predictions.
+ - How did you compute the target?
 
-5. Consider business decisions that model may indicate are appropriate.
-Evaluate possible decisions with metrics that are appropriate for decision making.
-   
-## Results and Recommendations
+## Exploratory Data Analysis 
 
-- Elaborate on: 
-  - How did you compute the target?
+Scatter Matrix
+
+Violin Plot 
+
+Correlation Matrix/HeatMap
+
+## Modeling 
+
+Describe models used, tested
   - What model did you use in the end? Why?
   - Alternative models you considered? Why are they not good enough?
   - What performance metric did you use to evaluate the *model*? Why?
-  - Based on insights from the model, what actionable plans do you propose to
+  
+
+| --------------------------------------|:-----:|  
+| LogisticRegression Accuracy:          | 0.736 |
+| LogisticRegression Precision:         | 0.736 |   
+| LogisticRegression Recall:            | 0.847 | 
+| LogisticRegression F1:                | 0.787 |
+| --------------------------------------|:-----:|  
+| AdaBoostClassifier Accuracy:          | 0.804 |
+| AdaBoostClassifier Precision:         | 0.804 |
+| AdaBoostClassifier Recall:            | 0.862 |   
+| AdaBoostClassifier F1:                | 0.832 |
+| --------------------------------------|:-----:|  
+| GradientBoostingClassifier Accuracy:  | 0.807 |
+| GradientBoostingClassifier Precision: | 0.807 |
+| GradientBoostingClassifier Recall:    | 0.862 |
+| GradientBoostingClassifier F1:        | 0.834 |
+| --------------------------------------|:-----:|  
+| RandomForestClassifier Accuracy:      | 0.807 |
+| RandomForestClassifier Precision:     | 0.807 |
+| RandomForestClassifier Recall:        | 0.808 |
+| RandomForestClassifier F1:            | 0.807 |
+| --------------------------------------|:-----:|  
+
+## Results
+
+| --------------------------------------|:-----:|
+GradientBoostingClassifier Accuracy:    | 0.807 |
+GradientBoostingClassifier Precision:   | 0.807 |
+GradientBoostingClassifier Recall:      | 0.869 |
+GradientBoostingClassifier F1:          | 0.837 |
+| --------------------------------------|:-----:|
+
+ROC plot
+
+Feature Importance
+
+Partial Dependency Plot
+
+## Conclusions
+
+Wrap up with recommendations for company 
+
+- Based on insights from the model, what actionable plans do you propose to
     reduce churn?
   - What are the potential impacts of implementing these plans or decisions?
     What performance metrics did you use to evaluate these *decisions*, why?
+   
+ 
+
+  
+  
