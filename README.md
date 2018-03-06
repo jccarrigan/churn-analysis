@@ -53,37 +53,33 @@ Describe models used, tested
   - Alternative models you considered? Why are they not good enough?
   - What performance metric did you use to evaluate the *model*? Why?
   
-
+| Models + Metrics                      | Scores|
 | --------------------------------------|:-----:|  
 | LogisticRegression Accuracy:          | 0.736 |
 | LogisticRegression Precision:         | 0.736 |   
 | LogisticRegression Recall:            | 0.847 | 
-| LogisticRegression F1:                | 0.787 |
-| --------------------------------------|:-----:|  
+| LogisticRegression F1:                | 0.787 |  
 | AdaBoostClassifier Accuracy:          | 0.804 |
 | AdaBoostClassifier Precision:         | 0.804 |
 | AdaBoostClassifier Recall:            | 0.862 |   
-| AdaBoostClassifier F1:                | 0.832 |
-| --------------------------------------|:-----:|  
+| AdaBoostClassifier F1:                | 0.832 |  
 | GradientBoostingClassifier Accuracy:  | 0.807 |
 | GradientBoostingClassifier Precision: | 0.807 |
 | GradientBoostingClassifier Recall:    | 0.862 |
-| GradientBoostingClassifier F1:        | 0.834 |
-| --------------------------------------|:-----:|  
+| GradientBoostingClassifier F1:        | 0.834 | 
 | RandomForestClassifier Accuracy:      | 0.807 |
 | RandomForestClassifier Precision:     | 0.807 |
 | RandomForestClassifier Recall:        | 0.808 |
-| RandomForestClassifier F1:            | 0.807 |
-| --------------------------------------|:-----:|  
+| RandomForestClassifier F1:            | 0.807 | 
 
 ## Results
 
-| --------------------------------------|:-----:|
-GradientBoostingClassifier Accuracy:    | 0.807 |
-GradientBoostingClassifier Precision:   | 0.807 |
-GradientBoostingClassifier Recall:      | 0.869 |
-GradientBoostingClassifier F1:          | 0.837 |
-| --------------------------------------|:-----:|
+| Metrics                                 | Scores|
+| ----------------------------------------|:-----:|
+| GradientBoostingClassifier Accuracy:    | 0.807 |
+| GradientBoostingClassifier Precision:   | 0.807 |
+| GradientBoostingClassifier Recall:      | 0.869 |
+| GradientBoostingClassifier F1:          | 0.837 |
 
 ROC plot
 
