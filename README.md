@@ -52,13 +52,13 @@ Below represents a scatter matrix that was used to investigate colinearity betwe
 
 ![Scatter Matrix](Plots/scatter_matrix.png)
 
-The violin plot below demonstrates the variability of data in the feature space. Variables ‘avg_dist’, both ‘avg_ratings’, ‘avg_surge’,’trips_in_first_30_days’, and ‘rating_diff’ displayed exceptionally high variability, spanning more than 5 standard deviations. Let’s keep an eye on these when interpreting our model results. Perhaps these large deviations can assist in predicting churn. 
-
-![Violin Plot](Plots/violin_plot.png) 
-
 The correlation matrix below further investigates the correlation between variables. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot. This also confirmed our decision to maintain all features in our feature space. 
 
 ![Correlation Matrix](Plots/correlation_matrix.png)
+
+The violin plot below demonstrates the variability of data in the feature space. Variables ‘avg_dist’, both ‘avg_ratings’, ‘avg_surge’,’trips_in_first_30_days’, and ‘rating_diff’ displayed exceptionally high variability, spanning more than 5 standard deviations. Let’s keep an eye on these when interpreting our model results. Perhaps these large deviations can assist in predicting churn. 
+
+![Violin Plot](Plots/violin_plot.png) 
 
 ## Modeling 
 
