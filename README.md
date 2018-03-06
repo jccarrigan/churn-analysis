@@ -115,11 +115,11 @@ Based on the insights above, a few recommendations can be made to improve custom
 
 - Provide discounts for users who routinely travel short or long distances. Perhaps users can buy several rides of a particular distance at a discounted bulk rate.
 
--A similar incentive structure can be utilized with users with high surge usage.
+- A similar incentive structure can be utilized with users with high surge usage.
 
--Investigation into signup promotions may provide additional insight into explain our discovery regarding trips in the first 30 days. 
+- Investigation into signup promotions may provide additional insight into explain our discovery regarding trips in the first 30 days. 
 
--Finally, incentivizing weekday users to use the app on weekends as well may reduce churn. 
+- Finally, incentivizing weekday users to use the app on weekends as well may reduce churn. 
 
 A/B testing would be a useful tool in determining the impact of many of the potential changes to business dynamics mentioned above. 
 
