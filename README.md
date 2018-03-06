@@ -1,4 +1,4 @@
-# Churn Analysis for a Major San Francisco Ride Sharing Company
+# Churn Analysis - San Francisco Ride Sharing Company
 
 # Table of Contents
 
