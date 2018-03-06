@@ -48,11 +48,7 @@ As mentioned above, our target variable 'churn' was created based upon the 'last
 
 ## Exploratory Data Analysis 
 
-Below represents a scatter matrix that was used to investigate colinearity between variables. Some resemblances were found, but none warranting withdrawal of variables from our feature space. 
-
-![Scatter Matrix](Plots/scatter_matrix.png)
-
-The correlation matrix below further investigates the correlation between variables. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot. This also confirmed our decision to maintain all features in our feature space. 
+The correlation matrix below investigates the correlation between variables. If strong correlations are found, our model could be negatively impacted if included in our feature space. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot. This justifies our decision to include all features in our model. 
 
 ![Correlation Matrix](Plots/correlation_matrix.png)
 
