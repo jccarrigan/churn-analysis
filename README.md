@@ -50,11 +50,11 @@ Describe cleaning process
 
 ## Exploratory Data Analysis 
 
-[Scatter Matrix](Plots/scatter_matrix.png)
+![Scatter Matrix](Plots/scatter_matrix.png)
 
-[Violin Plot](Plots/violin_plot.png) 
+![Violin Plot](Plots/violin_plot.png) 
 
-[Correlation Matrix](Plots/correlation_matrix.png)
+![Correlation Matrix](Plots/correlation_matrix.png)
 
 ## Modeling 
 
@@ -91,11 +91,11 @@ Describe models used, tested
 | GradientBoostingClassifier Recall:      | 0.869 |
 | GradientBoostingClassifier F1:          | 0.837 |
 
-[ROC](Plots/roc_plot.png)
+![ROC](Plots/ROC_plot.png)
 
-[Feature Importance](Plots/feature_importance.png)
+![Feature Importance](Plots/feature_importance.png)
 
-[Partial Dependency](Plots/partial_dependency.png)
+![Partial Dependency](Plots/partial_dependency.png)
 
 ## Conclusions
 
