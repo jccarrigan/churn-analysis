@@ -48,7 +48,7 @@ As mentioned above, our target variable 'churn' was created based upon the 'last
 
 ## Exploratory Data Analysis 
 
-The correlation matrix below investigates the correlation between variables. If strong correlations are found, our model could be negatively impacted if included in our feature space. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot in our feature space. This justifies our decision to include all features in our model. Churn displays some correlations with certain variables. This is our first glimpse into what variables may be predictive of churn.
+The correlation matrix below investigates the correlation between variables. If strong correlations are found, our model could be negatively impacted if included in our feature space. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot. This justifies our decision to include all features in our model. Churn displays some correlation with certain variables. This is our first glimpse into what variables may be predictive of churn.
 
 ![Correlation Matrix](Plots/correlation_matrix.png)
 
