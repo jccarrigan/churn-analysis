@@ -101,7 +101,7 @@ The graph below displays the most important features in creating our model. It s
 
 ![Feature Importance](Plots/feature_importance.png)
 
-From analysis of partial dependencies below, it becomes clearer how our more salient features interact with churn. It seems that extremes of distance are more correlated with churn, whether very short or very long. Perhaps these users are using the app for a very specific purpose, and is not conducive to continued use. Also, it is assumed users are charged a flat rate below certain distances that may irritate users. Certain cities seem more highly correlated with churn than others. Android users also seem more likely to churn. Perhaps some discrepancy between apps is to blame. The correlation between higher use in the first 30 days and churn is an interesting observation. Perhaps when signup promotionals expire some users are less inclined to use the app. Finally, it's not surprising to see high surge percentages correlated with churn. If a large percentage of the time a user is charged extra to use the app, they are less inclined to continue to use it.
+From analysis of partial dependencies below, it becomes clearer how our more salient features interact with churn. It seems that extremes of distance are more correlated with churn, whether very short or very long. Perhaps these users are using the app for a very specific purpose, and is not conducive to continued use. Also, it is assumed users are charged a flat rate below certain distances that may irritate users. Extremes of weekday/weekend use seem correlated with higher churn rates. Incentive structures may be beneficial to retain these users and incentivize additional weekend/weekday usage. The correlation between higher use in the first 30 days and churn is an interesting observation. Perhaps when signup promotionals expire some users are less inclined to use the app. Finally, it's not surprising to see high surge percentages correlated with churn. If a large percentage of the time a user is charged extra to use the app, they are less inclined to continue to use it.
 
 ![Partial Dependency](Plots/partial_dependency.png)
 
@@ -115,7 +115,7 @@ Based on the insights above, a few recommendations can be made to improve custom
 
 - Investigation into signup promotions may provide additional insight into explain our discovery regarding trips in the first 30 days. 
 
-- Finally, investigate further any differences in apps by platform. 
+- Finally, incentivizing weekday users to use the app on weekends and vise versa may reduce churn. 
 
 A/B testing would be a useful tool in determining the impact of many of the potential changes to business dynamics mentioned above. 
 
