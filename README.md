@@ -48,11 +48,11 @@ As mentioned above, our target variable 'churn' was created based upon the 'last
 
 ## Exploratory Data Analysis 
 
-The correlation matrix below investigates the correlation between variables. If strong correlations are found, our model could be negatively impacted if included in our feature space. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot. This justifies our decision to include all features in our model. 
+The correlation matrix below investigates the correlation between variables. If strong correlations are found, our model could be negatively impacted if included in our feature space. Beyond relationships we would expect, such as rides in a certain city negatively correlating with a different city, or rating_diff correlating with both rating variables, little stood out in this plot in our feature space. This justifies our decision to include all features in our model. Churn displays some correlations with certain variables. This is our first glimpse into what variables may be predictive of churn.
 
 ![Correlation Matrix](Plots/correlation_matrix.png)
 
-The violin plot below demonstrates the variability of data in the feature space. Variables ‘avg_dist’, both ‘avg_ratings’, ‘avg_surge’,’trips_in_first_30_days’, and ‘rating_diff’ displayed exceptionally high variability, spanning more than 5 standard deviations. Let’s keep an eye on these when interpreting our model results. Perhaps these large deviations can assist in predicting churn. 
+The violin plot below demonstrates the variability of data in the feature space. Variables ‘avg_dist’, both ‘avg_ratings’, ‘avg_surge’, ’trips_in_first_30_days’, and ‘rating_diff’ displayed exceptionally high variability, spanning more than three standard deviations. Let’s keep an eye on these when interpreting our model results. Perhaps these large deviations can assist in predicting churn. 
 
 ![Violin Plot](Plots/violin_plot.png) 
 
@@ -101,7 +101,7 @@ The graph below displays the most important features in creating our model. It s
 
 ![Feature Importance](Plots/feature_importance.png)
 
-From analysis of partial dependencies below, it becomes clearer how our more salient features interact with churn. It seems that extremes of distance are more correlated with churn, whether very short or very long. Perhaps these users are using the app for a very specific purpose, and is not conducive to continued use. Also, it is assumed users are charged a flat rate below certain distances that may irritate users. Higher weekday use seems correlated with higher churn rates. Incentive structures may be beneficial to retain these users and incentivize additional weekend usage. The correlation between higher use in the first 30 days and churn is an interesting observation. Perhaps when signup promotionals expire some users are less inclined to use the app. Finally, it's not surprising to see high surge percentages correlated with churn. If a large percentage of the time a user is charged extra to use the app, they are less inclined to continue to use it.
+From analysis of partial dependencies below, it becomes clearer how our more salient features interact with churn. It seems that extremes of distance are more correlated with churn, whether very short or very long. Perhaps these users are using the app for a very specific purpose, and is not conducive to continued use. Also, it is assumed users are charged a flat rate below certain distances that may irritate users. Certain cities seem more highly correlated with churn than others. Android users also seem more likely to churn. Perhaps some discrepancy between apps is to blame. The correlation between higher use in the first 30 days and churn is an interesting observation. Perhaps when signup promotionals expire some users are less inclined to use the app. Finally, it's not surprising to see high surge percentages correlated with churn. If a large percentage of the time a user is charged extra to use the app, they are less inclined to continue to use it.
 
 ![Partial Dependency](Plots/partial_dependency.png)
 
@@ -115,7 +115,7 @@ Based on the insights above, a few recommendations can be made to improve custom
 
 - Investigation into signup promotions may provide additional insight into explain our discovery regarding trips in the first 30 days. 
 
-- Finally, incentivizing weekday users to use the app on weekends as well may reduce churn. 
+- Finally, investigate further any differences in apps by platform. 
 
 A/B testing would be a useful tool in determining the impact of many of the potential changes to business dynamics mentioned above. 
 
